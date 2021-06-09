@@ -1,0 +1,38 @@
+.form {
+    position: absolute;
+    top: 10em;
+    left: 25em;
+    height: 450px;
+    border: 2px solid black;
+    width: 40%;
+}
+.radii {
+    padding-right: 3em;
+}
+.zero {
+    position: absolute;
+    top: 125px;
+    left: 14em;
+    border: 0px;
+  }
+
+.one {
+    position: absolute;
+    left: 1.5em;
+    top: 12em;
+    border: 2px solid black;
+    width: 80%;
+}
+.two {
+    position: absolute;
+    left: 1.5em;
+    top: 20em;
+    border: 2px solid black;
+    width: 80%;
+}
+.rad{
+    padding-right: 3em;
+}
+.side{
+    margin-left: 1.5em;
+}

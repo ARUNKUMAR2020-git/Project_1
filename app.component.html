@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.component.css">
+  <title>Form 1</title>
+</head>
+<body>
+<form class="form">
+    <table>
+        <div class="side">
+          <tr>
+            <td>
+                District Name
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+          <td>
+                Area(sq mt)
+          </td>
+          <td>
+                <input type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Population
+          </td>
+          <td>
+                <input type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+
+          </td>
+          <td>
+            <style>
+              input[type=text]{
+                width:100%;
+                border:4px solid #aaa;
+                border: 2px solid black;
+                border-radius:2px;
+                margin:8px 0;
+                outline:none;
+                box-sizing:border-box;
+                background-color: lightgray;
+              }
+            </style>
+          </td>
+        </tr>
+        </div>
+        <div class="zero">
+          <tr>
+            <td>
+              <input type="submit" value="SAVE" sixe="30" placeholder="SAVE">
+            </td>
+            <td>
+              <style>
+                input[type=submit]{
+                  width:100%;
+                  border:4px solid #aaa;
+                  border: 2px solid black;
+                  border-radius:2px;
+                  margin:8px 0;
+                  outline:none;
+                  box-sizing:border-box;
+                  background-color: darkgray;
+                }
+              </style>
+            </td>
+          </tr>
+        </div>
+        <div class="one">
+          <tr>
+            <td>
+              Biggest District(Area wise)
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <input type="radio" value="Chennai" name="place"><span class ="radii">Chennai</span>  
+                <input type="radio" value="Coimbatore" name="place"><span class ="radii">Coimbatore</span> 
+                <input type="radio" value="Salem" name="place"><span class ="radii">Salem</span> 
+            </td>
+          </tr>
+        </div>
+        <br>
+        <br>
+        <div class="two">
+          <tr>
+            <td>
+              Highly Populated Ditrict
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <input type="radio" value="Chennai" name="population"><span class ="rad">Chennai</span>  
+                <input type="radio" value="Coimbatore" name="population"><span class ="rad">Coimbatore</span> 
+                <input type="radio" value="Salem" name="population"><span class ="rad">Salem</span> 
+            </td>
+          </tr>
+        </div>
+        <br>
+        <br>
+    </table>
+</form>
+</body>
+</html>
